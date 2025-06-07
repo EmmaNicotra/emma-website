@@ -1,1 +1,103 @@
 # emma-website
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emma Nicotra</title>
+  <style>
+    body {
+      font-family: "Courier New", Courier, monospace;
+      background-color: #fffbea;
+      color: #111;
+      margin: 0;
+      padding: 2em;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      border-bottom: 1px solid #aaa;
+      padding-bottom: 0.3em;
+      margin-top: 2em;
+    }
+
+    a {
+      color: #111;
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 2em;
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1em;
+      margin-top: 1em;
+    }
+
+    .photo-grid img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    .note {
+      font-style: italic;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Personal</h1>
+    <p>Hi! My name is Emma. I’m not a big fan of Instagram, but I think it’s important to have some sort of online presence. I’m from Connecticut and Colorado. I go to school in Washington D.C., and I’m really passionate about organizations and decision-making. I’m overly optimistic about the idea that changing systems can improve conditions in the real world.</p>
+
+    <p><strong>Ask me about:</strong> all things ethics, complexity science, and voting.</p>
+    <p><strong>The way to my heart is:</strong> picking up trash and random acts of kindness.<br />
+    <span class="note">*Important addendum: my heart is already romantically taken by a very cool guitarist — @deanmiller.</span></p>
+
+    <p><strong>I am probably thinking about:</strong> rock climbing or existential threats from AI.</p>
+    <p><strong>I am working on:</strong> learning how to code, studying generative ghosts, and improving student governments.</p>
+    <p><strong>My favorite question to ask is:</strong> What is a metaphor for your brain?<br />
+    (As of May, mine is a lake/aspiring river.)</p>
+
+    <p><strong>If you want to reach me:</strong> You can DM me (it will definitely go into the abyss), LinkedIn chat, or text me (may take 2–10 business days).</p>
+
+    <h2>Links</h2>
+    <ul>
+      <li><strong>Strava</strong> (80% of my runs are private): <a href="https://strava.app.link/CHCp2uLB0Tb" target="_blank">strava.app.link</a></li>
+      <li><strong>Spotify</strong> (sometimes I think I’m cool): <a href="https://open.spotify.com/user/emma2005bean?si=L9TlC45-S3W3qcqlu_gmig" target="_blank">spotify.com/emma2005bean</a></li>
+      <li><strong>LinkedIn</strong> (if you’re feeling fancy): <a href="https://www.linkedin.com/in/emmanicotra" target="_blank">linkedin.com/in/emmanicotra</a></li>
+      <li><strong>Pinterest</strong> (soo artsy): <a href="https://pin.it/3dNP7XBzf" target="_blank">pin.it/3dNP7XBzf</a></li>
+    </ul>
+
+    <h2>Projects</h2>
+    <p><strong>What I’m working on…</strong></p>
+    <ul>
+      <li><a href="https://www.every.org/givedirectly/f/emmas-marathon-fundr" target="_blank">Marine Corps Fundraiser</a></li>
+      <li><a href="https://cmci.colorado.edu/idlab/projects/" target="_blank">Identity Lab Assistant</a></li>
+      <li><a href="https://yuvoice.com/" target="_blank">YuVoice Intern</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfNwH0CeT7N7EKHwITuOcQYxukGCNTeOxgcGCQVoq-0R6WXAw/viewform?usp=sharing" target="_blank">StudentGoveHub</a></li>
+    </ul>
+
+    <h2>Pictures</h2>
+    <p>Some photos from the past year:</p>
+    <div class="photo-grid">
+      <img src="photo1.jpg" alt="Photo 1" />
+      <img src="photo2.jpg" alt="Photo 2" />
+      <img src="photo3.jpg" alt="Photo 3" />
+      <!-- Add more <img> tags here as needed -->
+    </div>
+
+  </div>
+</body>
+</html>
